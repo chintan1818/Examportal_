@@ -14,6 +14,8 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long cId;
     private String title;
+
+    @Column(length=500)
     private String description;
 
     @OneToMany(mappedBy = "category", fetch = FetchType.LAZY, cascade = CascadeType.ALL    )

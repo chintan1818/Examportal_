@@ -2,7 +2,7 @@ package com.exam.model;
 
 
 
-public class JwtRequest  {
+public class JwtRequest  {  
 
 
 

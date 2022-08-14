@@ -13,11 +13,15 @@ public class Question {
     private String content;
     private String image;
 
+    @Column(length=500)
     private String option1;
+    @Column(length=500)
     private String option2;
+    @Column(length=500)
     private String option3;
+    @Column(length=500)
     private String option4;
-
+    @Column(length=500)
     private String answer;
 
     @ManyToOne(fetch = FetchType.EAGER)
